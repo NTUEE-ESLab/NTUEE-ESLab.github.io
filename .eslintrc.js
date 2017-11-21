@@ -1,0 +1,40 @@
+module.exports = {
+    extends: 'airbnb-base',
+    plugins: [
+        'react',
+        'jsx-a11y',
+        'import',
+    ],
+    rules: {
+        indent: ['error', 4, { SwitchCase: 1 }],
+        semi: ['error', 'never'],
+        'space-before-function-paren': 'off',
+        'keyword-spacing': 'off',
+        'func-names': 'off',
+        'object-shorthand': 'off',
+        'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+        'react/jsx-indent': [2, 4],
+        'class-methods-use-this': 'off',
+        'function-paren-newline': 'off',
+        'no-unused-vars': 'warn',
+        'no-restricted-syntax': 'off',
+        'no-await-in-loop': 'off',
+        'no-console': 'off',
+        'prefer-destructuring': 'off',
+        'no-param-reassign': 'warn',
+        'no-plusplus': 'off',
+        'no-continue': 'off',
+        'no-mixed-operators': 'off',
+        'object-curly-newline': 'off',
+        'no-underscore-dangle': 'off',
+        'no-cond-assign': 'off',
+    },
+    env: {
+        browser: true,
+    },
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
+};
