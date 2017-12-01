@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Menu, Icon, Input, Image } from 'semantic-ui-react'
-import '../containers/Container.css'
 
 import './TopBar.css'
 import ScrollHOC from './ScrollHOC'

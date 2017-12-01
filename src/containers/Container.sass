@@ -1,0 +1,5 @@
+@import color
+
+@each $name, $value in $colors
+    .my-container.#{$name}
+        +set-color($value)

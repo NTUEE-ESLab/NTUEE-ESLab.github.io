@@ -14,7 +14,7 @@ const config = {
         path: BUILD_DIR,
         filename: '[name].entry.js',
         chunkFilename: '[id].chunk.js',
-        publicPath: 'dist',
+        publicPath: '/dist/',
     },
     module: {
         loaders: [{
@@ -27,6 +27,14 @@ const config = {
         }, {
             test: /\.json$/,
             loaders: ['json-loader'],
+        }, {
+            test: /\.sass$/,
+            loader: ['style-loader', 'css-loader', {
+                loader: 'sass-loader',
+                options: {
+                    sourceMap: true,
+                },
+            }],
         }],
     },
     plugins: [
