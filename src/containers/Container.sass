@@ -1,5 +1,18 @@
-@import color
+@import '../styles/color'
+@import '../styles/media'
 
 @each $name, $value in $colors
     .my-container.#{$name}
         +set-color($value)
+
+.my-container
+    +media-wide
+        padding: 10px calc((100% - 1127px) / 2)
+    +media-large
+        padding: 10px calc((100% - 933px) / 2)
+    +media-computer
+        padding: 10px calc((100% - 723px) / 2)
+    +media-tablet
+        padding: 10px calc((100% - 663px) / 2)
+    +media-mobile
+        padding: 10px 5em

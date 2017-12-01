@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Grid, Header, Image, Item, Icon, Card, Rail, Sticky } from 'semantic-ui-react'
+import { Grid, Header, Image, Item, Icon, Card, Rail, Sticky, Segment } from 'semantic-ui-react'
 
 import projects from '../../projects.json'
 
@@ -16,25 +16,33 @@ export default class App extends React.Component {
     }
 
     renderYear(year) {
-        return (
-            <Grid>
-                <Grid.Row key={year.name}>
-                    <Grid.Column width={3}>
-                        <Sticky offset={70}>
-                            <Header size='huge' style={{ textAlign: 'center' }}>
-                                <a href={`#${year.name}`} style={{ color: 'black', borderBottom: 'solid black 10px' }}>{year.name}</a>
-                            </Header>
-                            <p>{year.description}</p>
-                        </Sticky>
-                    </Grid.Column>
-                    <Grid.Column width={10}>
-                        <Card.Group itemsPerRow={3} stackable>
-                            {year.projects.map(this.renderProject)}
-                        </Card.Group>
-                    </Grid.Column>
-                    <Grid.Column width={3}></Grid.Column>
-                </Grid.Row>
-            </Grid>)
+        return [
+            <Segment basic>
+                <Header size='huge' style={{ textAlign: 'center' }}>
+                    <a href={`#${year.name}`} style={{ color: 'black', borderBottom: 'solid black 10px' }}>{year.name}</a>
+                </Header>
+                <p>{year.description}</p>
+            </Segment>,
+            <Card.Group itemsPerRow={3} stackable doubling style={{ marginTop: 0 }}>
+                {year.projects.map(this.renderProject)}
+            </Card.Group>,
+        ]
+        // return (
+        //     <Grid padded>
+        //         <Grid.Row key={year.name}>
+        //             <Grid.Column computer={3} mobile={16}>
+        //                 <Header size='huge' style={{ textAlign: 'center' }}>
+        //                     <a href={`#${year.name}`} style={{ color: 'black', borderBottom: 'solid black 10px' }}>{year.name}</a>
+        //                 </Header>
+        //                 <p>{year.description}</p>
+        //             </Grid.Column>
+        //             <Grid.Column computer={10} mobile={16}>
+        //                 <Card.Group itemsPerRow={3} stackable doubling style={{ marginTop: 0 }}>
+        //                     {year.projects.map(this.renderProject)}
+        //                 </Card.Group>
+        //             </Grid.Column>
+        //         </Grid.Row>
+        //     </Grid>)
     }
 
     renderProject(project) {
@@ -59,17 +67,19 @@ export default class App extends React.Component {
     }
 
     render() {
-        return (
-            <Container textAlign='center'>
-                { projects.map(this.renderYear) }
+        return [
+            <Container textAlign='center' color='white'>
+                {projects.map(this.renderYear)}
+            </Container>,
+            <Container textAlign='center' color='grey'>
                 <p>
-                    <Icon name='code' /> with <Icon name='like' /> by <a style={{ color: 'white', borderBottom: 'dashed 1px white' }} href='https://github.com/PatrickChen83'><Icon name='user'/>Ian Chen</a>
+                    <Icon name='code' /> with <Icon name='like' /> by <a style={{ color: 'white', borderBottom: 'dashed 1px white' }} href='https://github.com/PatrickChen83'><Icon name='user' />Ian Chen</a>
                     <br />
                     <span style={{ fontSize: 10 }}>
                         "Lab Computer" by Ben Davis from thenounproject.com
                     </span>
                 </p>
-            </Container>
-        )
+            </Container>,
+        ]
     }
 }

@@ -7,12 +7,12 @@ export default function Container({ children, textAlign, color, style = {} }) {
         style.textAlign = 'center'
     }
 
-    color = getColor(color)
+    const className = ['my-container']
     if (color) {
-        style.backgroundColor = color
+        className.push(color)
     }
 
-    return <div className='my-container grey' style={style}>
+    return <div className={className.join(' ')} style={style}>
         { children }
     </div>
 }
