@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
-import App from './containers/App'
+import App from './components/App'
 
 // const store = createStore(() => {},
 //     window.__REDUX_DEVTOOLS_EXTENSION__ &&

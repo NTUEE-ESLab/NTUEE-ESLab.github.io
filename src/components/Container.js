@@ -2,17 +2,17 @@ import React from 'react'
 import { getColor } from '../utils'
 import './Container.sass'
 
-export default function Container({ children, textAlign, color, style = {} }) {
+export default function Container({ children, textAlign, color, className = '', style = {}, id }) {
     if (textAlign) {
         style.textAlign = 'center'
     }
 
-    const className = ['my-container']
+    className = `${className} my-container`.split(' ')
     if (color) {
         className.push(color)
     }
 
-    return <div className={className.join(' ')} style={style}>
+    return <div id={id} className={className.join(' ')} style={style}>
         { children }
     </div>
 }
