@@ -1,0 +1,105 @@
+@import '../styles/color'
+@import '../styles/media'
+
+// This is put at the head tag so that it can be loaded first
+// @import url(//fonts.googleapis.com/earlyaccess/cwtexming.css);
+
+.intro
+    top: 0
+    width: 100vw
+    z-index: -1
+    position: fixed
+
+    display: flex
+    align-items: center;
+    justify-content: center;
+
+    $color: map-get($colors, teal)
+    background-color: $color
+
+
+    height: 95vh
+
+    +media-tablet
+        height: 80vh
+
+    +media-mobile
+        height: 95vh
+
+    &::before
+        width: 100vw
+        height: 100vh
+        content: ' '
+        position: fixed
+        opacity: 0.15
+        z-index: 0
+        background-image: url('/assets/banner-background.jpg')
+        background-size: cover
+        background-position: center center
+
+#root
+    margin-top: 95vh
+    +media-tablet
+        margin-top: 80vh
+    +media-mobile
+        margin-top: 95vh
+
+.intro > div
+    margin-top: 102px
+    +media-mobile
+        margin-top: 60px
+
+.intro > div > h1, .intro h1 > span
+    font-size: 45px !important
+    letter-spacing: 20px
+    font-family: 'cwTeXMing', serif !important
+    text-align: center
+
+    +media-tablet
+        font-size: 40px !important
+        letter-spacing: 18px
+    +media-mobile
+        font-size: 35px !important
+        letter-spacing: 15px
+
+.intro > div > p.subtitle
+    text-align: center
+    font-family: 'cwTeXMing', serif !important
+
+    font-size: 30px !important
+    letter-spacing: 35px
+
+    +media-tablet
+        font-size: 25px !important
+        letter-spacing: 30px
+    +media-mobile
+        font-size: 20px !important
+        letter-spacing: 5px
+
+.intro > div > p.content-text
+    width: 35vw
+    margin: 0 auto
+    text-align: center
+    letter-spacing: 2px
+
+    font-size: 20px
+
+    +media-tablet
+        width: 40vw
+        font-size: 16px !important
+    +media-mobile
+        width: 70vw
+        font-size: 13px !important
+
+.intro .year-selection
+    position: relative
+    top: -2px
+    border-color: black
+    background-color: map-get($colors, teal) !important
+
+.intro .year-selection > .default.text
+    font-family: 'cwTeXMing', serif !important
+    font-size: 22px
+    text-align: center !important
+    color: map-get($colors, black) !important
+

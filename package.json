@@ -1,0 +1,29 @@
+{
+  "name": "ntuee-eslab",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Ian Chen <patrickchen1994@gmail.com> (https://github.com/IanChen83/)",
+  "license": "UNLICENSED",
+  "homepage": "https://ntuee-eslab.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTUEE-ESLab/NTUEE-ESLab.github.io.git"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5",
+    "sass-loader": "^7.1.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.3",
+    "yaml-loader": "^0.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

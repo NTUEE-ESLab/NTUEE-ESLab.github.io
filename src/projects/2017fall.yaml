@@ -1,0 +1,62 @@
+name: "Fall2017"
+description: "除了現在非常流行的樹梅派與Arduino，這個學期我們嘗試將Ti的MSP432開發板加入我們的教材。在這些開發板上我們介紹作業系統的概念以及與其他裝置溝通的方式。最後，這個學期我們開始嘗試使用Github來作為期末專題的展示平台，希望學生能藉此體會Open Source的精神。"
+projects:
+    - name: "Smart Camera Car"
+      image: assets/project/2017fall-smart-camera-car.jpg
+      students: ["高子佳", "溫郁承"]
+      description: "A small camera car that can follow your motion and shot video for you."
+      href: https://ntuee-eslab.github.io/2017Fall-SmartCameraCar/webpage/
+
+    - name: "No Pen No Gain"
+      image: assets/project/2017fall-no-pen-no-gain.png
+      students: ["吳添聚", "陳政曄", "黃禹傑"]
+      description: "A laser pointer to control the cursor on the projection screen."
+      href: https://ntuee-eslab.github.io/2017Fall-NoPenNoGain/
+
+    - name: "Intelligent Security Guard"
+      image: assets/project/2017fall-intelligent-security-guard.jpg
+      students: ["江子豪", "許博竣"]
+      description: "ISG provides total security of home environment in your absence."
+      href: https://ntuee-eslab.github.io/2017Fall-IntelligentSecurityGuard/
+
+    - name: "Intelligent Assistant"
+      image: assets/project/2017fall-intelligent-assistant.png
+      students: ["高佑豪", "謝宜展"]
+      description: "An assistant who can recognize speech and answer requests."
+      href: https://ntuee-eslab.github.io/2017Fall-IntelligentAssistant/
+
+    - name: "Smart Garbage Car"
+      image: assets/project/2017fall-smart-garbage-car.resize.png
+      students: ["張顥霆", "吳　宇"]
+      description: "The smart garbage car frees you from sweeping the floor."
+      href: https://ntuee-eslab.github.io/2017Fall-SmartGarbageCar/
+
+    - name: "Smart Shoe"
+      image: assets/project/2017fall-smart-shoe.jpg
+      students: ["陳咸嘉", "林奕竹"]
+      description: "An easy way to communicate without being noticed."
+      href: https://ntuee-eslab.github.io/2017Fall-SmartShoe/
+
+    - name: "Smart Pill Dispenser"
+      image: assets/project/2017fall-smart-pill-dispenser.jpg
+      students: ["林與晟", "李仲翊"]
+      description: "A smart pill dispenser that recognize your face and dispense the corresponding pills."
+      href: https://ntuee-eslab.github.io/2017Fall-smart-pill-dispenser/
+
+    - name: "Smart Cooking Assistant"
+      image: assets/project/2017fall-smart-cooking-assistant.png
+      students: ["徐彥旻", "蔡丞昊", "蕭晨豪"]
+      description: "做出幫助大家嘗試新料理的好幫手"
+      href: https://ntuee-eslab.github.io/2017Fall-SmartCookingAssistant/
+
+    - name: "Door Friend"
+      image: assets/project/2017fall-door-friend.png
+      students: ["方致偉", "林孟瑾", "蘇峯廣"]
+      description: "A door that recognizes you, and your friends."
+      href: https://github.com/NTUEE-ESLab/2017Fall-DoorFriend/blob/master/README.md
+
+    - name: "Gesture Recognition"
+      image: assets/project/2017fall-gesture-recognition.resize.jpg
+      students: ["李昂軒", "袁培傑"]
+      description: "An awesome way to interact with virtual world."
+      href: https://ntuee-eslab.github.io/2017Fall-GestureRecognition/

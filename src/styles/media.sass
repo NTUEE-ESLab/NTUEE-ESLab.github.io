@@ -1,0 +1,39 @@
+$media-stops: ( upper: 9999px, wide: 1920px, large: 1200px, computer: 992px, tablet: 768px, lower: 1px)
+
+=media-wide
+    $upper: map-get($media-stops, upper)
+    $lower: map-get($media-stops, wide)
+    @media(min-width: #{$lower}) and (max-width: #{$upper - 1px})
+        @content
+
+=media-large
+    $upper: map-get($media-stops, wide)
+    $lower: map-get($media-stops, large)
+    @media(min-width: #{$lower}) and (max-width: #{$upper - 1px})
+        @content
+
+=media-computer
+    $upper: map-get($media-stops, large)
+    $lower: map-get($media-stops, computer)
+    @media(min-width: #{$lower}) and (max-width: #{$upper - 1px})
+        @content
+
+=media-tablet
+    $upper: map-get($media-stops, computer)
+    $lower: map-get($media-stops, tablet)
+    @media(min-width: #{$lower}) and (max-width: #{$upper - 1px})
+        @content
+
+=media-mobile
+    $upper: map-get($media-stops, tablet)
+    $lower: map-get($media-stops, lower)
+    @media(min-width: #{$lower}) and (max-width: #{$upper - 1px})
+        @content
+
+.rwd-tablet-hidden
+    +media-tablet
+        display: none
+
+.rwd-mobile-hidden
+    +media-mobile
+        display: none
