@@ -5,7 +5,6 @@ import projects from '../projects'
 import Year from './Year'
 import Intro from './Intro'
 import Footer from './Footer'
-import Container from './Container'
 import Staff from './Staff'
 
 export default function() {

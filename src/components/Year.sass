@@ -20,9 +20,9 @@
                 @media (min-width: $screen-width)
                     max-width: calc(#{$column-width} - #{$gutter})
 
-            $column-width: (100%/$max-cols);
+            $column-width: (100%/$max-cols)
             @media (min-width: $min-width*$max-cols)
-                min-width: calc(#{$column-width} - #{$gutter});
+                min-width: calc(#{$column-width} - #{$gutter})
 
 +n-columns(300px, 20px, true, 3)
 
@@ -62,8 +62,8 @@
     $blur-radius: 20px
     $spread-radius: 20px
     $shadow-opacity: 0.3
-    box-shadow: 0 0 $blur-radius $spread-radius rgba(0,0,0,$shadow-opacity);
-    -webkit-box-shadow: 0 0 $blur-radius $spread-radius rgba(0,0,0,$shadow-opacity);
+    box-shadow: 0 0 $blur-radius $spread-radius rgba(0,0,0,$shadow-opacity)
+    -webkit-box-shadow: 0 0 $blur-radius $spread-radius rgba(0,0,0,$shadow-opacity)
     -moz-box-shadow: 0 0 $blur-radius $spread-radius rgba(0,0,0,$shadow-opacity)
 
 .ui.card, .ui.cards > .card

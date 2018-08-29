@@ -8,7 +8,7 @@ export default function() {
     return (
         <Container id='footer' key='bottom' textAlign='center' color='grey'>
             <p>
-                <Icon name='code' /> with <Icon name='like' /> by <a href='https://github.com/PatrickChen83'><Icon name='user' />Ian Chen</a>
+                <Icon name='code' /> with <Icon name='like' /> by <a href='https://github.com/IanChen83'><Icon name='user' />Ian Chen</a>
                 <br />
                 <span className='attributions'>
                     "Lab Computer" by Ben Davis from thenounproject.com <br/>
