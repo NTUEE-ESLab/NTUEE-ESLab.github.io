@@ -1,10 +1,10 @@
 #!/bin/bash
 set -o errexit
 
-git config --global user.email "nobody@nobody.org"
+git config --global user.email "ci@travis.com"
 git config --global user.name "Travis CI"
 
-cd public
+cd build
 
 git init
 git add .
