@@ -1,7 +1,7 @@
 NTUEE-ESLab.github.io
 ====================
 
-The website for [ntuee-eslab](ntuee-eslab.github.io).
+The website for [ntuee-eslab](https://ntuee-eslab.github.io).
 
 ## Get Started
 
