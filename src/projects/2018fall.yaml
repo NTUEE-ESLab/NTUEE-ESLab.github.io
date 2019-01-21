@@ -1,0 +1,38 @@
+name: "Fall2018"
+description: "除了先前的樹梅派與Arduino，這個學期我們將TI的CC26x2無線開發板納入教材,  額外提供搭載Pascal架構GPU的NVIDIA Jetson TX2嵌入式模組, 供期末專案需要進行影像辨識和物件偵測等工作的組別使用, 並持續使用Github來作為期末專題的展示平台。"
+projects:
+    - name: "Virtual Reality Streaming"
+      image: assets/project/2018fall-virtual-reality-streaming.resize.jpg
+      students: ["林志皓", "朱紹瑋"]
+      description: "Enable people to interact with each other in live broadcast."
+      href: https://ntuee-eslab.github.io/2018Fall-VirtualRealityStreaming/
+
+    - name: "BLE Mouse with Handwriting Recognition"
+      image: assets/project/2018fall-ble-mouse-with-handwriting-recognition.jpg
+      students: ["劉人廣", "王奕倫"]
+      description: "傾斜式BLE滑鼠，搭配上軌跡辨識英文字母功能"
+      href: https://ntuee-eslab.github.io/2018Fall-virtual-canvas/
+
+    - name: "Self Balancing Robot"
+      image: assets/project/2018fall-self-balancing-robot.resize.jpg
+      students: ["劉維凱", "陳明宏"]
+      description: "製作能夠避障、自己穩定的平衡的兩輪小車"
+      href: https://ntuee-eslab.github.io/2018Fall-Self-Balancing-Robot/
+
+    - name: "Smart Guidance Helmet"
+      image: assets/project/2018fall-smart-guidance-helmet.resize.png
+      students: ["許傑盛", "蔡承佑"]
+      description: "我們將視線偵測應用在資訊搜索擷取上，希望能夠讓生活過得更有科技感更便利些"
+      href: https://ntuee-eslab.github.io/2018Fall-Smart-Guidance-Helmet/
+
+    - name: "Face Dance Machine"
+      image: assets/project/2018fall-face-dance-machine.png
+      students: ["黃郁珊", "莫絲羽"]
+      description: "Time to exercise your face and play the dancing machine game!"
+      href: https://ntuee-eslab.github.io/2018Fall-FaceDanceMachine/
+
+    - name: "Wand Control Game"
+      image: assets/project/2018fall-wand-control-game.jpg
+      students: ["吳建緯", "吳宥璁"]
+      description: "運用感測器判斷出揮動並配合遊戲做出的互動遊戲"
+      href: https://ntuee-eslab.github.io/2018Fall_Wand_Control_Game/
