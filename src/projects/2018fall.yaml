@@ -1,5 +1,5 @@
 name: "Fall2018"
-description: "除了先前的樹梅派與Arduino，這個學期我們將TI的CC26x2無線開發板納入教材,  額外提供搭載Pascal架構GPU的NVIDIA Jetson TX2嵌入式模組, 供期末專案需要進行影像辨識和物件偵測等工作的組別使用, 並持續使用Github來作為期末專題的展示平台。"
+description: "除了先前的樹梅派與Arduino，這個學期我們將TI的CC26x2無線開發板納入教材,  並且於期末專案額外提供搭載Pascal架構GPU的NVIDIA Jetson TX2嵌入式模組, 讓要進行影像辨識或物件偵測等工作的組別使用, 並持續使用Github來作為期末專題的展示平台。"
 projects:
     - name: "Virtual Reality Streaming"
       image: assets/project/2018fall-virtual-reality-streaming.resize.jpg
