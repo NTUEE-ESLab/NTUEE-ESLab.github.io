@@ -11,7 +11,7 @@ projects:
       image: assets/project/2018fall-ble-mouse-with-handwriting-recognition.jpg
       students: ["劉人廣", "王奕倫"]
       description: "傾斜式BLE滑鼠，搭配上軌跡辨識英文字母功能"
-      href: https://liu014.github.io/
+      href: https://ntuee-eslab.github.io/2018fall_BLE-mouse-with-handwriting-recognition/
 
     - name: "Self Balancing Robot"
       image: assets/project/2018fall-self-balancing-robot.resize.jpg
