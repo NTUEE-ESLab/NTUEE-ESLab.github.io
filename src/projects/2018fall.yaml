@@ -54,3 +54,21 @@ projects:
       students: ["蔡承佑", "楊宗山"]
       description: "A monitor that knows your face."
       href: https://ntuee-eslab.github.io/2018Fall-FaceID-Monitor/
+      
+    - name: "Point Blank"
+      image: assets/project/2018fall-point-blank.png
+      students: ["林厚均", "陳致維"]
+      description: "An advanced presentation pointer that highlights the area of attention without the use of physical light markers."
+      href: https://ntuee-eslab.github.io/2018Fall-PointBlank/
+
+    - name: "Automatic Counter-Attack Rover"
+      image: assets/project/2018fall-automatic-counter-attack-rover.jpg
+      students: ["簡仲明", "陳柏瑞"]
+      description: "一個受到攻擊能夠辨識攻擊來向與攻擊物體並自動反擊的外星越野車"
+      href: https://ntuee-eslab.github.io/2018Fall_ACAR/
+
+    - name: "Poli Car"
+      image: assets/project/2018fall-poli-car.jpg
+      students: ["陳邦正", "陳慶瑾"]
+      description: "一項結合車牌辨識與自動駕駛的巡邏車"
+      href: https://ntuee-eslab.github.io/2018Fall-Poli-Car/
