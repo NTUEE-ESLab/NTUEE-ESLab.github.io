@@ -19,7 +19,7 @@ export default function() {
                 <li>
                     <div>
                         <header>呂其暐</header>
-                        <p>助教（Fall 2017, Spring 2018, Fall 2018, Spring 2019）</p>
+                        <p>助教（Fall 2017, Spring 2018, Fall 2018, Spring 2019, Fall 2019）</p>
                     </div>
                 </li>
                 <li>
