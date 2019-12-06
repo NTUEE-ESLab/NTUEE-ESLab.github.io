@@ -34,6 +34,12 @@ export default function() {
                         <p>助教（Fall 2018, Spring 2019）</p>
                     </div>
                 </li>
+                <li>
+                    <div>
+                        <header>劉人廣</header>
+                        <p>助教（Fall 2019）</p>
+                    </div>
+                </li>
             </ul>
         </Container>
     )
