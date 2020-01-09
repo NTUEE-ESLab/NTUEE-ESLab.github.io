@@ -1,0 +1,8 @@
+name: "Fall2019"
+description: "本學期以STM32 B-L475E-IOT01A作為IoT node，以及TI CC26x2的BLE開發版為主體，搭配樹梅派做應用。並著重讓學生思考如何做出生活實際上的應用"
+projects:
+    - name: "Anti-Thief System"
+      image: assets/project/2019fall-anti-thief-system.png
+      students: ["張家維", "蘇彥碩"]
+      description: "A system designed to record trespassers upon passing through and sets off an alarm."
+      href: https://ntuee-eslab.github.io/2019-AntiThiefSystem/
