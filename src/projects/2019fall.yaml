@@ -6,3 +6,9 @@ projects:
       students: ["張家維", "蘇彥碩"]
       description: "A system designed to record trespassers upon passing through and sets off an alarm."
       href: https://ntuee-eslab.github.io/2019-AntiThiefSystem/
+      
+    - name: "Air Hockey"
+      image: assets/project/2019fall-air-hockey.png
+      students: ["陳培威", "葉沛鎧"]
+      description: "An air hockey game using STM32 boards as “strikers” and displayed by RPi."
+      href: https://ntuee-eslab.github.io/2019-AirHockey/
