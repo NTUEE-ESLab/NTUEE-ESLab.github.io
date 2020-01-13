@@ -12,3 +12,34 @@ projects:
       students: ["陳培威", "葉沛鎧"]
       description: "An air hockey game using STM32 boards as “strikers” and displayed by RPi."
       href: https://ntuee-eslab.github.io/2019-AirHockey/
+      
+    - name: "Comes with BGM"
+      image: assets/project/2019fall-Comes-with-BGM.png
+      students: ["楊晟甫", "康惟誠"]
+      description: "Detect where the users are and hence automatically turn on/off home appliances using STM32 and Rpi."
+      href: https://ntuee-eslab.github.io/2019-FALL-Comes-with-BGM/
+      
+    - name: "Awesome Alarm"
+      image: assets/project/2019Fall-Awesome-Alarm.bmp
+      students: ["劉昶樂", "莊永松"]
+      description: "In this project, we have successfully developed a creative alarm called "Awesome Alarm". By using Awesome Alarm, the user can wake up easier and with more fun! We integrated several sensors for STM-32 to enable the user to be waked up by light, instead of disturbing ringing which may annoy your roommates. The alarm can be easily set by Android App. Awesome Alarm is made up by an STM32 Discovery IOT board."
+      href: https://ntuee-eslab.github.io/2019-AwesomeAlarm/  
+      
+    - name: "Smart Cushion"
+      image: assets/project/2019Fall-Smart-Cushion.png
+      students: ["林宛萱", "楊欣睿"]
+      description: "We use DISCO-L475VG-IOT01A to develop a portable device that can be put in a cushion and record our sitting posture. We use 3 FSR sensors connected to L475VG to record the pressure while we sit on the chair. L475VG will calculate the data, analyzing user's current sitting posture."
+      href: ttps://ntuee-eslab.github.io/2019-SmartCushion/
+      
+    - name: "Fall Detection"
+      image: assets/project/2019Fall-fall-detection-banner.jpg
+      students: ["陳元芃", "孫鍾恩", "曹峻豪"]
+      description: "A device that can predict and detect human falling by using STM32's built-in 3D accelerometer."
+      href: https://github.com/NTUEE-ESLab/2019-Fall-Detection 
+      
+     - name: "Automatic Firearm"
+      image: assets/project/2019Fall-Cardboard-Gun.jpg
+      students: ["翁挺瑋", "劉凡"]
+      description: "Inspired by the "Edna mode" scene in the movie "The Incredibles", we developed an automatic system that alarms owner of trespassers and attacks accordingly."
+      href: https://tingweiwong.github.io/Embedded-System/ 
+      
