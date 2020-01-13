@@ -22,5 +22,5 @@ projects:
     - name: "Awesome Alarm"
       image: assets/project/2019Fall-Awesome-Alarm.png
       students: ["劉昶樂", "莊永松"]
-      description: "In this project, we have successfully developed a creative alarm called "Awesome Alarm". By using Awesome Alarm, the user can wake up easier and with more fun! We integrated several sensors for STM-32 to enable the user to be waked up by light, instead of disturbing ringing which may annoy your roommates. The alarm can be easily set by Android App. Awesome Alarm is made up by an STM32 Discovery IOT board."
+      description: "We integrated several sensors for STM-32 to enable the user to be waked up by light, instead of disturbing ringing which may annoy your roommates."
       href: https://ntuee-eslab.github.io/2019-AwesomeAlarm/
