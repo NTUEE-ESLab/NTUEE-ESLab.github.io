@@ -37,8 +37,3 @@ projects:
       description: "A device that can predict and detect human falling by using STM32's built-in 3D accelerometer."
       href: https://github.com/NTUEE-ESLab/2019-Fall-Detection 
       
-    - name: "Automatic Firearm"
-      image: assets/project/2019Fall-Cardboard-Gun.jpg
-      students: ["翁挺瑋", "劉凡"]
-      description: "Inspired by the "Edna mode" scene in the movie "The Incredibles", we developed an automatic system that alarms owner of trespassers and attacks accordingly."
-      href: https://tingweiwong.github.io/Embedded-System/ 
