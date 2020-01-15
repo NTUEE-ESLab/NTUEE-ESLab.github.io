@@ -43,3 +43,9 @@ projects:
       description: "Inspired by the “Edna mode” scene in the movie “The Incredibles”, we developed an automatic system that alarms owner of trespassers and attacks accordingly."
       href: https://ntuee-eslab.github.io/Automatic-Firearm
       
+    - name: "STMFit"
+      image: assets/project/2019Fall-STMFit.png
+      students: ["黃世丞", "楊采綸"]
+      description: "有鑑於現代人不願花時間運動，以及最近Switch上《健身環大冒險》的成功，我們想用STM32製作一個低成本的體感遊戲裝置，讓玩家用身體一邊運動、暢玩任何在PC上能夠用鍵盤遊玩的遊戲！"
+      href: https://ntuee-eslab.github.io/ESYS_2019/  
+      
