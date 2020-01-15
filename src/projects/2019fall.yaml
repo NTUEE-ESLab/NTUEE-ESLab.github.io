@@ -49,3 +49,9 @@ projects:
       description: "有鑑於現代人不願花時間運動，以及最近Switch上《健身環大冒險》的成功，我們想用STM32製作一個低成本的體感遊戲裝置，讓玩家用身體一邊運動、暢玩任何在PC上能夠用鍵盤遊玩的遊戲！"
       href: https://ntuee-eslab.github.io/ESYS_2019/  
       
+    - name: "Intelligent motion recorder"
+      image: assets/project/2019Fall-Int-motion-recorder.jpg
+      students: ["周奕慧", "羅韻瑢"]
+      description: "隨著穿戴式裝置漸趨普遍，我們設計了一個穿戴式裝置來記錄一個人一整天的活動狀況，包括移動、靜止、運動、睡眠等，以便進行健康管理。"
+      href: https://ntuee-eslab.github.io/2019-Intelligent-Motion-Recorder
+      
