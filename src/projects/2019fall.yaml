@@ -73,3 +73,9 @@ projects:
       description: "一個可以提醒使⽤用者何時該倒垃圾以及是否需要清洗垃圾桶的物聯聯網裝置。"
       href: https://github.com/ao6bp6/reimagined-meme
       
+    - name: "locky biker"
+      image: assets/project/2019Fall-locky-biker.png
+      students: ["郭哲璁", "賴侃軒"]
+      description: "a convenient,automatically and security bike lock."
+      href: https://ntuee-eslab.github.io/2019-LockyBiker/
+  
