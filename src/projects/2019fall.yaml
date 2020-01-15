@@ -37,6 +37,12 @@ projects:
       description: "A device that can predict and detect human falling by using STM32's built-in 3D accelerometer."
       href: https://github.com/NTUEE-ESLab/2019-Fall-Detection 
       
+    - name: "Fall Detection"
+      image: assets/project/2019Fall-fall-detection-banner.jpg
+      students: ["陳元芃", "孫鍾恩", "曹峻豪"]
+      description: "A device that can predict and detect human falling by using STM32's built-in 3D accelerometer."
+      href: https://github.com/NTUEE-ESLab/2019-Fall-Detection 
+      
     - name: "Automatic Firearm"
       image: assets/project/2019Fall-Cardboard-Gun.jpg
       students: ["劉凡", "翁挺偉"]
@@ -49,9 +55,9 @@ projects:
       description: "有鑑於現代人不願花時間運動，以及最近Switch上《健身環大冒險》的成功，我們想用STM32製作一個低成本的體感遊戲裝置，讓玩家用身體一邊運動、暢玩任何在PC上能夠用鍵盤遊玩的遊戲！"
       href: https://ntuee-eslab.github.io/ESYS_2019/  
       
-    - name: "Intelligent motion recorder"
-      image: assets/project/2019Fall-Int-motion-recorder.jpg
-      students: ["周奕慧", "羅韻瑢"]
-      description: "隨著穿戴式裝置漸趨普遍，我們設計了一個穿戴式裝置來記錄一個人一整天的活動狀況，包括移動、靜止、運動、睡眠等，以便進行健康管理。"
-      href: https://ntuee-eslab.github.io/2019-Intelligent-Motion-Recorder
+    - name: "Smart Cabinet"
+      image: assets/project/2019Fall-cabinet.png
+      students: ["陳昱行", "林辰宇", "黃柏崴"]
+      description: "這個作品是配合mbed得主題做出的櫃子，能夠有效的減少收納的空間並增加效率。"
+      href: https://github.com/NTUEE-ESLab/2019-SmartCabinet
       
