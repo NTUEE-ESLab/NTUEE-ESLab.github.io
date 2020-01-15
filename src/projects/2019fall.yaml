@@ -67,3 +67,9 @@ projects:
       description: "With sensor in STM32 and socket connection, we can detect and make classification in motions of a user by a pre-trained  CNN model based on torch. This system can tell “pass” or “shoot”  when playing basketball(depends on model accuracy)"
       href: https://github.com/NTUEE-ESLab/2019-MotionDetect
       
+    - name: "IOTrash Can"
+      image: assets/project/2019Fall-IOTrash-Can.png
+      students: ["蔡舜宇", "黃宣丰"]
+      description: "一個可以提醒使⽤用者何時該倒垃圾以及是否需要清洗垃圾桶的物聯聯網裝置。"
+      href: https://github.com/ao6bp6/reimagined-meme
+      
