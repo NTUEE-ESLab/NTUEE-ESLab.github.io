@@ -61,3 +61,9 @@ projects:
       description: "這個作品是配合mbed得主題做出的櫃子，能夠有效的減少收納的空間並增加效率。"
       href: https://github.com/NTUEE-ESLab/2019-SmartCabinet
       
+    - name: "Motion detection based on STM32"
+      image: assets/project/2019Fall-Motion-detection-based-on-STM32.jpg
+      students: ["桑坤法", "張詩琦"]
+      description: "With sensor in STM32 and socket connection, we can detect and make classification in motions of a user by a pre-trained  CNN model based on torch. This system can tell “pass” or “shoot”  when playing basketball(depends on model accuracy)"
+      href: https://github.com/NTUEE-ESLab/2019-MotionDetect
+      
